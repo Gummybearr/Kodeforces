@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/login_background"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/drawer_user_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_launcher_foreground"/>
+            <TextView
+                android:layout_marginTop="50dp"
+                android:id="@+id/drawer_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textSize="30sp"
+                android:fontFamily="@font/gillsansb"
+                />
+            <ImageView
+                android:id="@+id/drawer_share_twitter"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/twitter"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

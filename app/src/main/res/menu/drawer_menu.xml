@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/navigationFullname"
+    android:icon="@drawable/ic_person_black_24dp"
+    android:title="Full Name"
+    />
+
+<item android:id="@+id/navigationBirthday"
+    android:icon="@drawable/ic_rating_black_24dp"
+    android:title="Birthday"
+    />
+
+
+</menu>
